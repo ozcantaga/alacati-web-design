@@ -66,9 +66,9 @@ export default defineNuxtConfig({
       ],
       script: [
         // ===== GOOGLE ANALYTICS 4 (GA4) =====
-        // Kendi GA4 Measurement ID'nizi "G-XXXXXXXXXX" yerine yazın
+        // Kendi GA4 Measurement ID'nizi "G-018CG0VVXV" yerine yazın
         {
-          src: 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX',
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-018CG0VVXV',
           async: true,
         },
         {
@@ -76,7 +76,7 @@ export default defineNuxtConfig({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX');
+            gtag('config', 'G-018CG0VVXV');
           `,
           type: 'text/javascript',
         },
