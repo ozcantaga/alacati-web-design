@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ozcantaga.com/sitemap.xml
+Sitemap: https://alacati-web-design.vercel.app/sitemap.xml
 
 # Google Ads Bot
 User-agent: AdsBot-Google

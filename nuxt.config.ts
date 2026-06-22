@@ -25,18 +25,18 @@ export default defineNuxtConfig({
         { property: 'og:site_name', content: 'Özcan Tağa — Web Designer' },
         { property: 'og:title', content: 'Özcan Tağa — Butik Otel & Restoran Web Tasarımı' },
         { property: 'og:description', content: 'Sadece güzel değil, rezervasyon getiren web siteleri. Alaçatı ve Çeşme bölgesinde butik oteller ve restoranlar için premium web tasarım hizmeti.' },
-        { property: 'og:image', content: 'https://ozcantaga.com/og-image.png' },
+        { property: 'og:image', content: 'https://alacati-web-design.vercel.app/og-image.png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:image:alt', content: 'Özcan Tağa - Web Designer - Butik Otel ve Restoran Web Tasarımı' },
-        { property: 'og:url', content: 'https://ozcantaga.com' },
+        { property: 'og:url', content: 'https://alacati-web-design.vercel.app' },
         { property: 'og:locale', content: 'tr_TR' },
 
         // ===== TWITTER CARDS =====
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Özcan Tağa — Web Designer | Butik Otel & Restoran' },
         { name: 'twitter:description', content: 'Alaçatı ve Çeşme bölgesinde butik oteller ve restoranlar için rezervasyon getiren web siteleri tasarlıyorum.' },
-        { name: 'twitter:image', content: 'https://ozcantaga.com/og-image.png' },
+        { name: 'twitter:image', content: 'https://alacati-web-design.vercel.app/og-image.png' },
         { name: 'twitter:image:alt', content: 'Özcan Tağa - Web Designer' },
 
         // ===== GEO & LANGUAGE TARGETING =====
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
         { name: 'apple-mobile-web-app-title', content: 'Özcan Tağa' },
       ],
       link: [
-        { rel: 'canonical', href: 'https://ozcantaga.com' },
+        { rel: 'canonical', href: 'https://alacati-web-design.vercel.app' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/og-image.png' },
         { rel: 'manifest', href: '/site.webmanifest' },
@@ -98,17 +98,17 @@ export default defineNuxtConfig({
             '@graph': [
               {
                 '@type': 'WebSite',
-                '@id': 'https://ozcantaga.com/#website',
-                'url': 'https://ozcantaga.com',
+                '@id': 'https://alacati-web-design.vercel.app/#website',
+                'url': 'https://alacati-web-design.vercel.app',
                 'name': 'Özcan Tağa — Web Designer',
                 'description': 'Butik Otel & Restoran Web Tasarımı',
                 'inLanguage': 'tr-TR',
               },
               {
                 '@type': 'Person',
-                '@id': 'https://ozcantaga.com/#person',
+                '@id': 'https://alacati-web-design.vercel.app/#person',
                 'name': 'Özcan Tağa',
-                'url': 'https://ozcantaga.com',
+                'url': 'https://alacati-web-design.vercel.app',
                 'jobTitle': 'Web Designer',
                 'description': 'Alaçatı ve Çeşme bölgesindeki butik oteller ve restoranlar için rezervasyon getiren web siteleri tasarlayan profesyonel web tasarımcı.',
                 'alumniOf': {
@@ -137,7 +137,7 @@ export default defineNuxtConfig({
                     'name': 'İzmir',
                   },
                 ],
-                'image': 'https://ozcantaga.com/og-image.png',
+                'image': 'https://alacati-web-design.vercel.app/og-image.png',
                 'sameAs': [
                   // Sosyal medya linklerinizi buraya ekleyin
                   // 'https://www.instagram.com/ozcantaga',
@@ -146,9 +146,9 @@ export default defineNuxtConfig({
               },
               {
                 '@type': 'ProfessionalService',
-                '@id': 'https://ozcantaga.com/#business',
+                '@id': 'https://alacati-web-design.vercel.app/#business',
                 'name': 'Özcan Tağa Web Tasarım',
-                'url': 'https://ozcantaga.com',
+                'url': 'https://alacati-web-design.vercel.app',
                 'description': 'Butik oteller, restoranlar, beach club\'lar ve villa kiralama işletmeleri için profesyonel web tasarım hizmeti.',
                 'priceRange': '₺₺₺',
                 'areaServed': ['Alaçatı', 'Çeşme', 'İzmir', 'Türkiye'],
@@ -160,17 +160,17 @@ export default defineNuxtConfig({
                   'Villa Kiralama Web Sitesi',
                   'SEO Optimizasyonu',
                 ],
-                'image': 'https://ozcantaga.com/og-image.png',
+                'image': 'https://alacati-web-design.vercel.app/og-image.png',
               },
               {
                 '@type': 'BreadcrumbList',
-                '@id': 'https://ozcantaga.com/#breadcrumb',
+                '@id': 'https://alacati-web-design.vercel.app/#breadcrumb',
                 'itemListElement': [
                   {
                     '@type': 'ListItem',
                     'position': 1,
                     'name': 'Ana Sayfa',
-                    'item': 'https://ozcantaga.com',
+                    'item': 'https://alacati-web-design.vercel.app',
                   },
                 ],
               },
