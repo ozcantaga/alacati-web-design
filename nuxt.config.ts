@@ -58,7 +58,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'canonical', href: 'https://alacati-web-design.vercel.app' },
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/og-image.png' },
         { rel: 'manifest', href: '/site.webmanifest' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
