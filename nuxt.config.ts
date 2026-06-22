@@ -82,10 +82,10 @@ export default defineNuxtConfig({
         },
 
         // ===== GOOGLE ADS CONVERSION TRACKING =====
-        // Kendi Google Ads ID'nizi "AW-XXXXXXXXXX" yerine yazın
+        // Kendi Google Ads ID'nizi "AW-648485114" yerine yazın
         {
           innerHTML: `
-            gtag('config', 'AW-XXXXXXXXXX');
+            gtag('config', 'AW-648485114');
           `,
           type: 'text/javascript',
         },
