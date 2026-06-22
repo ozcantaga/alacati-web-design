@@ -1,0 +1,17 @@
+{
+  "name": "Özcan Tağa — Web Designer",
+  "short_name": "Özcan Tağa",
+  "description": "Alaçatı ve Çeşme bölgesinde butik oteller ve restoranlar için rezervasyon getiren web tasarımları.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1A1A1A",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/og-image.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

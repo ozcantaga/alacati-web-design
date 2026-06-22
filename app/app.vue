@@ -34,7 +34,7 @@
       <div class="hero-content">
         <span class="overline">Web Designer — Cyprus International University</span>
         <h1>Rezervasyon Getiren<br>Web Deneyimleri</h1>
-        <p>Sadece güzel görünen değil, gerçekten rezervasyon ve müşteri kazandıran web siteleri tasarlıyorum. Butik oteller, restoranlar ve premium markalar için.</p>
+        <p>Alaçatı ve Çeşme bölgesinde, sadece güzel görünen değil, gerçekten rezervasyon ve müşteri kazandıran web siteleri tasarlıyorum. Butik oteller, restoranlar ve premium markalar için.</p>
         <div class="hero-cta-group">
           <a href="#showcase-hotel" class="btn btn-gold">Projeleri İncele</a>
           <a :href="whatsappLink" target="_blank" class="btn btn-outline-light">Teklif Al</a>
@@ -146,7 +146,7 @@
     <section class="container" style="padding-top: 6rem;">
       <div class="section-header fade-up">
         <span class="overline">Bölge Rehberi — SEO Güçlendirici</span>
-        <h2>Alaçatı'yı Keşfedin</h2>
+        <h2>Alaçatı & Çeşme'yi Keşfedin</h2>
         <div class="divider"></div>
         <p>Bu bölüm hem misafirlerinize değer katar hem de SEO'da inanılmaz fark yaratır.</p>
       </div>
@@ -292,7 +292,7 @@
           <span class="overline">Para Kazandıran Sistem</span>
           <h2>Hazır Tema Sistemi</h2>
           <div class="divider"></div>
-          <p>Alaçatı, Çeşme, Urla için geliştirdiğim hazır altyapı. Her müşteriye sıfırdan site yerine, kanıtlanmış şablonları uyarlıyorum.</p>
+          <p>Alaçatı ve Çeşme bölgesi için geliştirdiğim hazır altyapı. Her müşteriye sıfırdan site yerine, kanıtlanmış şablonları uyarlıyorum.</p>
         </div>
 
         <div class="services-grid fade-up">
@@ -329,7 +329,7 @@
           <span class="overline" style="color: var(--color-gold);">Hakkımda</span>
           <h2>Özcan Tağa</h2>
           <div class="divider"></div>
-          <p>Cyprus International University mezunu. Sadece güzel tasarım değil, rezervasyon ve müşteri kazandıran web deneyimleri yaratıyorum. Alaçatı, Çeşme ve Urla bölgesindeki butik oteller ve restoranlar için uzmanlaşmış tema sistemleri geliştiriyorum.</p>
+          <p>Cyprus International University mezunu. Sadece güzel tasarım değil, rezervasyon ve müşteri kazandıran web deneyimleri yaratıyorum. Alaçatı ve Çeşme bölgesindeki butik oteller ve restoranlar için uzmanlaşmış tema sistemleri geliştiriyorum.</p>
 
           <div class="stats-row">
             <div class="stat-item">
@@ -363,7 +363,7 @@
         <div class="footer-grid">
           <div class="footer-brand">
             <h3>Özcan Tağa</h3>
-            <p>Ege'nin en güzel bölgelerindeki butik oteller ve restoranlar için, rezervasyon getiren web deneyimleri tasarlıyorum.</p>
+            <p>Alaçatı ve Çeşme bölgesindeki butik oteller ve restoranlar için, rezervasyon getiren web deneyimleri tasarlıyorum.</p>
           </div>
           <div class="footer-col">
             <h4>Temalar</h4>
@@ -402,21 +402,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-// SEO Head
-useHead({
-  title: 'Özcan Tağa — Web Designer | Butik Otel & Restoran Web Tasarımı',
-  meta: [
-    { name: 'description', content: 'Özcan Tağa, Alaçatı, Çeşme ve Urla bölgesindeki butik oteller ve restoranlar için rezervasyon getiren, yüksek performanslı web tasarımları geliştiren profesyonel web tasarımcı. Cyprus International University mezunu.' },
-    { name: 'keywords', content: 'web tasarım, butik otel web sitesi, restoran web sitesi, Alaçatı, Çeşme, Urla, web designer, Özcan Tağa' },
-    { property: 'og:title', content: 'Özcan Tağa — Web Designer' },
-    { property: 'og:description', content: 'Butik oteller ve restoranlar için rezervasyon getiren web deneyimleri.' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-  ],
-  link: [
-    { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-    { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }
-  ]
-})
+// SEO Head artık nuxt.config.ts'den yönetiliyor
 
 // WhatsApp
 const whatsappNumber = '905000000000' // Numaranızı buraya ekleyin

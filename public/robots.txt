@@ -1,2 +1,18 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ozcantaga.com/sitemap.xml
+
+# Google Ads Bot
+User-agent: AdsBot-Google
+Allow: /
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+
+# Disallow
+Disallow: /_nuxt/
+Disallow: /.nuxt/
+Disallow: /api/
